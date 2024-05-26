@@ -1,0 +1,73 @@
+section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.arrow-down{
+    display: flex;
+    justify-content: center;
+    margin-bottom:  65%;
+    font-size: 4em;
+    transform: rotate(180deg);
+}
+.arrow-in{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    margin-top: 55%;
+}
+
+.barrier{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.output-payment{
+    width: 100%;
+    height: 1.2em;
+    border: 1px black solid;
+    margin-bottom: 10%;
+    font-size: 5em;
+    text-align: center;
+}
+
+input{
+    font-size: 1.3em;
+    height: 1.5em;
+    text-align: center;
+}
+
+.barrier-entrance{
+    margin-bottom: 20%;
+}
+.number{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20%;
+}
+.base{
+    width: 50px;
+    height: 120px;
+    background: #000;
+}
+
+.pole{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(177, 38, 38);
+}
+.animation{
+    animation: 4s open;
+}
+
+@keyframes open{
+    0%{transform: rotate(0deg);}
+   50%{transform: rotate(-90deg);
+       transform-origin: left;}
+    100%{transform: rotate(0deg);
+        transform-origin: left;}
+    }
